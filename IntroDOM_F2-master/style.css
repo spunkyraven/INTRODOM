@@ -1,0 +1,211 @@
+body {
+    background: linear-gradient(to left, #28DF99, #99F3BD, #c8ffb4, #aac5a0);
+    min-height: 100vh;
+    display: block;
+    margin: 50px;
+}
+
+.cards {
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin: top 50px;
+}
+
+.card {
+    padding: 50px;
+    margin: 50px;
+    margin: bottom 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 20px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: aquamarine;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.bg-light {
+    background-color: #f8f9fa93!important;
+}
+
+h4 {
+    color: rgb(0, 0, 0);
+}
+
+.card-img-top {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+.bottom-wrap-payment {
+    padding: 0px;
+    border-top: 1px solid #e4e4e4
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.85rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.2rem
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3167eb;
+    border-color: #3167eb
+}
+
+.bottom-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.boutton {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*.like {
+    height: 20px;
+    width: 20px;
+}*/
+
+.danger {
+    background-color: #ff948c;
+}
+
+.danger:hover {
+    background: #da190b;
+}
+
+.btnDelete {
+    width: 20px;
+    height: 20px;
+}
+
+.h_container {
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#heart {
+    font-size: 25px;
+}
+
+#heart:hover {
+    color: red;
+}
+
+
+/* footer*/
+
+.newsletter {
+    padding: 80px 0;
+    margin: 30px;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+
+.content-tuned {
+    font-size: 0.8rem;
+    margin-bottom: 34px !important;
+    color: #fff
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 6px
+}
+
+.form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #243c4f;
+    border-color: none
+}
+
+.btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 300
+}
+
+.btn:hover {
+    background: red;
+    color: #fff
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25) !important
+}
+
+.unsubscribe-link {
+    text-decoration: none !important;
+    font-size: 13px;
+    color: #fff
+}
+
+.unsubscribe-link:hover {
+    text-decoration: none !important;
+    color: #fff
+}
